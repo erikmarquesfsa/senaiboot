@@ -17,6 +17,12 @@ nav{
 #navbarNav ul li a{
     color: #fff;
     font-weight: bold;
-    transition: background 1s;
+    transition: background 0.5s;
 }
+
+#navbarNav ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+
 
