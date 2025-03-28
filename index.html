@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link href="_css/pg.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header>
@@ -83,16 +84,22 @@
 
             <div class="row">
               <div class="col-sm-4 text-center align-middle destaque-texto">
-                <p class="destaque align-middle text-center">
+                <i class="fa-solid fa-envelope-open icones"></i><br>
+                E-MAIL CORPORATIVO 
+                <p class="destaque align-middle text-center">                  
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde quae consectetur accusamus qui? Blanditiis consectetur sint sunt, numquam amet placeat commodi voluptatum labore mollitia in aut, nemo nulla vitae!
                 </p>
               </div>
               <div class="col-sm-4 text-center align-middle destaque-texto">
-                <p class="destaque align-middle text-center">
+                <i class="fa-solid fa-share-nodes icones"></i><BR>
+                REDES SOCIAIS
+                <p class="destaque align-middle text-center">                  
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde quae consectetur accusamus qui? Blanditiis consectetur sint sunt, numquam amet placeat commodi voluptatum labore mollitia in aut, nemo nulla vitae!
                 </p>
               </div>
               <div class="col-sm-4 text-center align-middle destaque-texto">
+                <i class="fa-solid fa-hotel icones"></i><BR>
+                HOSPEDAGEM
                 <p class="destaque align-middle text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde quae consectetur accusamus qui? Blanditiis consectetur sint sunt, numquam amet placeat commodi voluptatum labore mollitia in aut, nemo nulla vitae!
                 </p>
@@ -101,6 +108,54 @@
 
 
 
+
+          </div>
+        </section>
+
+        <section id="contato">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main-title">Contato</h3>
+              </div>
+            </div>
+
+            <div class="container-fluid col-md-6">
+              <form>
+                <div class="col-md-12">
+                  <label for="inputEmail" class="form-label">
+                    E-mail:
+                  </label>
+                  <input type="email" class="form-control" id="inputEmail" name="email" required>
+                </div>
+                <div class="col-md-12">
+                  <label for="inputCep" class="form-label">
+                    CEP:
+                  </label>
+                  <input type="text" class="form-control" id="cep" name="cep" required>
+                </div>
+                <div class="col-md-12">
+                  <label for="inputRua" class="form-label">
+                    Rua:
+                  </label>
+                  <input type="text" class="form-control" id="rua" name="rua" required>
+                </div>
+                <div class="col-md-12">
+                  <label for="inputBairro" class="form-label">
+                    Bairro:
+                  </label>
+                  <input type="text" class="form-control" id="bairro" name="bairro" required>
+                </div>
+                <div class="col-md-12">
+                  <label for="inputFaleConosco" class="form-label">
+                    Fale Conosco
+                  <textarea class="form-control" rows="7" name="faleconosco" required></textarea>
+                </div>
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-warning bt-enviar">Enviar</button>
+                </div>
+              </form>
+            </div>
 
           </div>
         </section>
